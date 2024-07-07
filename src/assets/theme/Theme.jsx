@@ -16,8 +16,12 @@ export const useTheme = () => {
 };
 
 const lightTheme = {
+  pinkLight: '#D4AA99',
+  Orange: '#FF265D',
   background: '#FFFFFF',
+  Gradient: ['#FF811D', '#FF265D'],
   text: '#0a1224',
+  lightText: 'white',
   blue: '#38B6FF',
   lightBlue: '#38B6FF',
   red: '#D70E0E',
@@ -57,8 +61,13 @@ const lightTheme = {
 };
 
 const darkTheme = {
+  pinkLight: '#000',
+  OnboardingBgColor: 'rgb(223,193,181)',
   background: '#0a1224',
+  Gradient: ['#FF811D', '#FF265D'],
+  Orange: '#FF265D',
   text: 'white',
+  lightText: '#0a1224',
   blue: '#38B6FF',
   red: '#D70E0E',
   green: '#3B9B32',
